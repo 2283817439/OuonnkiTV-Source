@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const candidateSources = require('./candidate_sources.js');
 
 const inputFile = path.join(__dirname, '..', 'tv_source', 'LunaTV', 'LunaTV-config.json');
 const outputFile = path.join(__dirname, '..', 'tv_source', 'LunaTV', 'LunaTV-processed.json');
@@ -25,15 +26,71 @@ function cleanApiUrl(url) {
   return url;
 }
 
+// API URL 归一化用于跨清单去重：忽略协议、www. 和末尾斜杠。
+function normalizeApiUrl(url) {
+  return String(url || '')
+    .trim()
+    .replace(/\/+$/, '')
+    .replace(/^https?:\/\//i, '')
+    .replace(/^www\./i, '')
+    .toLowerCase();
+}
+
+function uniqueKey(baseKey, apiSite) {
+  let key = baseKey;
+  let index = 2;
+  while (apiSite[key]) {
+    key = `${baseKey}-candidate-${index++}`;
+  }
+  return key;
+}
+
+function mergeCandidateSources(apiSite) {
+  const merged = { ...apiSite };
+  const existingApis = new Set(
+    Object.values(merged)
+      .map((site) => normalizeApiUrl(site?.api))
+      .filter(Boolean),
+  );
+
+  let added = 0;
+  let skipped = 0;
+
+  for (const source of candidateSources) {
+    const api = cleanApiUrl(source.api);
+    const normalizedApi = normalizeApiUrl(api);
+
+    if (!normalizedApi || existingApis.has(normalizedApi)) {
+      skipped++;
+      continue;
+    }
+
+    const key = uniqueKey(`__candidate__${source.key.replace(/[^a-zA-Z0-9_-]/g, '-')}`, merged);
+    merged[key] = {
+      name: source.name,
+      api,
+      detail: source.detail || api,
+      isAdult: Boolean(source.isAdult),
+      _sourceOrigin: 'ziyuanzu-73-candidates',
+    };
+    existingApis.add(normalizedApi);
+    added++;
+  }
+
+  return { merged, added, skipped };
+}
+
 function processConfig(config) {
+  const { merged, added, skipped } = mergeCandidateSources(config.api_site || {});
   const result = {
     cache_time: config.cache_time,
     api_site: {},
   };
 
-  for (const [key, value] of Object.entries(config.api_site)) {
+  for (const [key, value] of Object.entries(merged)) {
     const originalName = value.name;
-    const isAdult = isAdultContent(originalName);
+    const isAdult =
+      typeof value.isAdult === 'boolean' ? value.isAdult : isAdultContent(originalName);
     const cleanedName = cleanName(originalName);
     const cleanedApi = cleanApiUrl(value.api);
     const domainId = key.replace(/\./g, '-');
@@ -43,11 +100,11 @@ function processConfig(config) {
       id: domainId,
       name: cleanedName,
       api: cleanedApi,
-      isAdult: isAdult,
+      isAdult,
     };
   }
 
-  return result;
+  return { result, added, skipped };
 }
 
 (async () => {
@@ -58,15 +115,19 @@ function processConfig(config) {
     }
 
     const config = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
-    const processed = processConfig(config);
+    const { result: processed, added, skipped } = processConfig(config);
 
     fs.writeFileSync(outputFile, JSON.stringify(processed, null, 2), 'utf8');
 
-    const adultCount = Object.values(processed.api_site).filter((site) => site.isAdult).length;
-    const normalCount = Object.values(processed.api_site).filter((site) => !site.isAdult).length;
+    const sites = Object.values(processed.api_site);
+    const adultCount = sites.filter((site) => site.isAdult).length;
+    const normalCount = sites.filter((site) => !site.isAdult).length;
 
     console.log(`✓ 已生成: ${outputFile}`);
-    console.log(`  - 总视频源数: ${Object.keys(processed.api_site).length}`);
+    console.log(`  - LunaTV 原始源数: ${Object.keys(config.api_site || {}).length}`);
+    console.log(`  - 34 候选源新增: ${added}`);
+    console.log(`  - 34 候选源重复跳过: ${skipped}`);
+    console.log(`  - 合并后总视频源数: ${sites.length}`);
     console.log(`  - 正常资源: ${normalCount}`);
     console.log(`  - 成人资源: ${adultCount}`);
   } catch (error) {
