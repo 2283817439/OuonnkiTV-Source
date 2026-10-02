@@ -166,5 +166,21 @@
     "detailUrl": "https://xingba222.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
+  },
+  {
+    "id": "__candidate__slapibf-com",
+    "name": "森林资源站",
+    "url": "https://slapibf.com/api.php/provide/vod/",
+    "detailUrl": "https://slapibf.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__hsckzy888-com",
+    "name": "X色仓库资源",
+    "url": "https://hsckzy888.com/api.php/provide/vod",
+    "detailUrl": "https://hsckzy888.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
   }
 ]

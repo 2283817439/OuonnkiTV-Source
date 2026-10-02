@@ -505,6 +505,278 @@
       "detail": "https://aosikazy.com",
       "id": "aosikazy-com",
       "isAdult": true
+    },
+    "__candidate__360zy-com": {
+      "name": "360资源站",
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "detail": "https://360zy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__360zy-com"
+    },
+    "__candidate__tyyszyapi-com": {
+      "name": "天涯影视资源站",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
+      "detail": "https://tyyszyapi.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__tyyszyapi-com"
+    },
+    "__candidate__haohuazy-com": {
+      "name": "豪华资源站",
+      "api": "https://haohuazy.com/api.php/provide/vod/",
+      "detail": "https://haohuazy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__haohuazy-com"
+    },
+    "__candidate__jipinvip1-com": {
+      "name": "新极品资源站",
+      "api": "https://jipinvip1.com/api.php/provide/vod/",
+      "detail": "https://jipinvip1.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__jipinvip1-com"
+    },
+    "__candidate__api-niuniuzy-me": {
+      "name": "牛牛资源",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "detail": "https://api.niuniuzy.me",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-niuniuzy-me"
+    },
+    "__candidate__suonizy-net": {
+      "name": "索尼采集站",
+      "api": "https://suonizy.net/api.php/provide/vod/",
+      "detail": "https://suonizy.net",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__suonizy-net"
+    },
+    "__candidate__mtzy5-com": {
+      "name": "茅台资源站",
+      "api": "https://mtzy5.com/api.php/provide/vod/",
+      "detail": "https://mtzy5.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__mtzy5-com"
+    },
+    "__candidate__huyazy-net": {
+      "name": "虎牙资源站",
+      "api": "https://huyazy.net/api.php/provide/vod/",
+      "detail": "https://huyazy.net",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__huyazy-net"
+    },
+    "__candidate__dbzy-tv": {
+      "name": "豆瓣资源站",
+      "api": "https://dbzy.tv/api.php/provide/vod/",
+      "detail": "https://dbzy.tv",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__dbzy-tv"
+    },
+    "__candidate__subocj-com": {
+      "name": "速播资源站",
+      "api": "https://subocj.com/api.php/provide/vod/",
+      "detail": "https://subocj.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__subocj-com"
+    },
+    "__candidate__www-suboziyuan-net": {
+      "name": "速播资源站",
+      "api": "https://www.suboziyuan.net/api.php/provide/vod/",
+      "detail": "https://www.suboziyuan.net",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__www-suboziyuan-net"
+    },
+    "__candidate__jyzyapi-com": {
+      "name": "金鹰资源站",
+      "api": "https://jyzyapi.com/provide/vod/",
+      "detail": "https://jyzyapi.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__jyzyapi-com"
+    },
+    "__candidate__ffzy5-tv": {
+      "name": "非凡资源站",
+      "api": "https://ffzy5.tv/api.php/provide/vod/",
+      "detail": "https://ffzy5.tv",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__ffzy5-tv"
+    },
+    "__candidate__dadiapi-com": {
+      "name": "大地资源站",
+      "api": "https://dadiapi.com/api.php",
+      "detail": "https://dadiapi.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__dadiapi-com"
+    },
+    "__candidate__slapibf-com": {
+      "name": "森林资源站",
+      "api": "https://slapibf.com/api.php/provide/vod/",
+      "detail": "https://slapibf.com",
+      "isAdult": true,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__slapibf-com"
+    },
+    "__candidate__xxavs-com": {
+      "name": "湿乐园资源站",
+      "api": "https://xxavs.com/api.php/provide/vod/",
+      "detail": "https://xxavs.com",
+      "isAdult": true,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__xxavs-com"
+    },
+    "__candidate__fqzy-me": {
+      "name": "番茄资源站",
+      "api": "https://fqzy.me/api.php/provide/vod/",
+      "detail": "https://fqzy.me",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__fqzy-me"
+    },
+    "__candidate__bhziyuan-com": {
+      "name": "百花资源站",
+      "api": "https://bhziyuan.com/api.php/provide/vod",
+      "detail": "https://bhziyuan.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__bhziyuan-com"
+    },
+    "__candidate__caiji-semaozy-net": {
+      "name": "色猫资源站",
+      "api": "https://caiji.semaozy.net/inc/api.php",
+      "detail": "https://caiji.semaozy.net",
+      "isAdult": true,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__caiji-semaozy-net"
+    },
+    "__candidate__api-vnzyz-com": {
+      "name": "越南资源站",
+      "api": "https://api.vnzyz.com/api.php/provide/vod/",
+      "detail": "https://api.vnzyz.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-vnzyz-com"
+    },
+    "__candidate__hsckzy888-com": {
+      "name": "X色仓库资源",
+      "api": "https://hsckzy888.com/api.php/provide/vod",
+      "detail": "https://hsckzy888.com",
+      "isAdult": true,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__hsckzy888-com"
+    },
+    "__candidate__api-okzy-com": {
+      "name": "ok资源站",
+      "api": "https://api.okzy.com/api.php/provide/vod",
+      "detail": "https://api.okzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-okzy-com"
+    },
+    "__candidate__api-ukuzy-com": {
+      "name": "u酷资源站",
+      "api": "https://api.ukuzy.com/api.php/provide/vod",
+      "detail": "https://api.ukuzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-ukuzy-com"
+    },
+    "__candidate__api-yzzy-com": {
+      "name": "优质资源站",
+      "api": "https://api.yzzy.com/api.php/provide/vod",
+      "detail": "https://api.yzzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-yzzy-com"
+    },
+    "__candidate__api-ryzy-com": {
+      "name": "如意资源站",
+      "api": "https://api.ryzy.com/api.php/provide/vod",
+      "detail": "https://api.ryzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-ryzy-com"
+    },
+    "__candidate__api-kczy-com": {
+      "name": "快车资源站",
+      "api": "https://api.kczy.com/api.php/provide/vod",
+      "detail": "https://api.kczy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-kczy-com"
+    },
+    "__candidate__api-xlzy-com": {
+      "name": "新浪资源站",
+      "api": "https://api.xlzy.com/api.php/provide/vod",
+      "detail": "https://api.xlzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-xlzy-com"
+    },
+    "__candidate__api-hnzy2-com": {
+      "name": "红牛资源站",
+      "api": "https://api.hnzy2.com/api.php/provide/vod",
+      "detail": "https://api.hnzy2.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-hnzy2-com"
+    },
+    "__candidate__api-jyzy-com": {
+      "name": "金鹰资源站",
+      "api": "https://api.jyzy.com/api.php/provide/vod",
+      "detail": "https://api.jyzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-jyzy-com"
+    },
+    "__candidate__api-sdzy-com": {
+      "name": "闪电资源",
+      "api": "https://api.sdzy.com/api.php/provide/vod",
+      "detail": "https://api.sdzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-sdzy-com"
+    },
+    "__candidate__api-yjzy-com": {
+      "name": "雅集资源站",
+      "api": "https://api.yjzy.com/api.php/provide/vod",
+      "detail": "https://api.yjzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-yjzy-com"
+    },
+    "__candidate__api-ckzy-com": {
+      "name": "ck资源站",
+      "api": "https://api.ckzy.com/api.php/provide/vod",
+      "detail": "https://api.ckzy.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__api-ckzy-com"
+    },
+    "__candidate__www-xrbsp-com": {
+      "name": "清水源资源站",
+      "api": "https://www.xrbsp.com/api/json.php",
+      "detail": "https://www.xrbsp.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__www-xrbsp-com"
+    },
+    "__candidate__www-gdlsp-com": {
+      "name": "香系源资源站",
+      "api": "https://www.gdlsp.com/api/json.php",
+      "detail": "https://www.gdlsp.com",
+      "isAdult": false,
+      "_sourceOrigin": "ziyuanzu-73-candidates",
+      "id": "__candidate__www-gdlsp-com"
     }
   }
 }

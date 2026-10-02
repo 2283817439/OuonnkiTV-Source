@@ -78,5 +78,29 @@
     "detailUrl": "https://hhzyapi.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
+  },
+  {
+    "id": "__candidate__haohuazy-com",
+    "name": "豪华资源站",
+    "url": "https://haohuazy.com/api.php/provide/vod/",
+    "detailUrl": "https://haohuazy.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__jipinvip1-com",
+    "name": "新极品资源站",
+    "url": "https://jipinvip1.com/api.php/provide/vod/",
+    "detailUrl": "https://jipinvip1.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__fqzy-me",
+    "name": "番茄资源站",
+    "url": "https://fqzy.me/api.php/provide/vod/",
+    "detailUrl": "https://fqzy.me/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
   }
 ]
