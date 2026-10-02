@@ -67,7 +67,24 @@ https://ouonnkitv-source-xxxx.vercel.app
 
 ---
 
-## 3. Vercel 部署
+## 3. 一键部署到 Vercel
+
+也可以直接点击：
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/2283817439/OuonnkiTV-Source&project-name=ouonnkitv-source)
+
+点击后：
+
+1. 登录 Vercel。
+2. 使用有权限访问 `2283817439/OuonnkiTV-Source` 的 GitHub 账号授权。
+3. 确认项目名称。
+4. 点击 Deploy。
+5. 等待 Vercel 完成部署。
+6. 获得 `https://<project-name>.vercel.app` 地址。
+
+因为仓库是 Private，如果 Vercel 没有访问该仓库的权限，需要在 GitHub/Vercel 的仓库授权设置中允许 Vercel 访问该仓库。
+
+## 4. Vercel 部署
 
 ### 3.1 导入 GitHub 仓库
 
@@ -117,7 +134,7 @@ https://<project-name>.vercel.app
 
 ---
 
-## 4. 部署完成后的 API
+## 5. 部署完成后的 API
 
 假设 Vercel 地址为：
 
@@ -175,7 +192,7 @@ https://ouonnkitv-source-xxxx.vercel.app/api/sources?type=full
 
 ---
 
-## 5. 部署后必须验证
+## 6. 部署后必须验证
 
 部署完成后，先不要修改 aidou。
 
@@ -213,7 +230,7 @@ https://<your-vercel-domain>/api/sources?type=full
 
 ---
 
-## 6. GitHub Actions 自动更新
+## 7. GitHub Actions 自动更新
 
 源数据不是由 Vercel 生成的。
 
@@ -260,7 +277,7 @@ GitHub
 
 ---
 
-## 7. 可选环境变量
+## 8. 可选环境变量
 
 GitHub Actions 支持以下 Secret：
 
@@ -294,7 +311,7 @@ TG_CHAT_ID
 
 ---
 
-## 8. aidou 接入
+## 9. aidou 接入
 
 部署完成后，aidou 只需要知道公开的 API 地址。
 
@@ -320,7 +337,7 @@ VITE_OUONNKI_SOURCE_API_URL=https://ouonnkitv-source-xxxx.vercel.app/api/sources
 
 ---
 
-## 9. 成人源
+## 10. 成人源
 
 如果 aidou 需要单独加载成人专区，可以使用：
 
@@ -344,7 +361,7 @@ VITE_OUONNKI_SOURCE_API_URL=https://ouonnkitv-source-xxxx.vercel.app/api/sources
 
 ---
 
-## 10. 缓存说明
+## 11. 缓存说明
 
 当前 API 使用 HTTP/CDN 缓存。
 
@@ -373,7 +390,7 @@ aidou
 
 ---
 
-## 11. 常见问题
+## 12. 常见问题
 
 ### Q1：一定需要域名吗？
 
@@ -459,7 +476,7 @@ Vercel
 
 ---
 
-## 12. 本地运行
+## 13. 本地运行
 
 如果需要手动生成源：
 
@@ -486,7 +503,7 @@ TG_CHAT_ID=
 
 ---
 
-## 13. 推荐部署顺序
+## 14. 推荐部署顺序
 
 第一次部署建议严格按照下面顺序：
 
@@ -516,7 +533,7 @@ TG_CHAT_ID=
 
 ---
 
-## 14. 更新架构
+## 15. 更新架构
 
 以后修改源管理逻辑时，只需要维护：
 
@@ -539,7 +556,7 @@ aidou 本身不需要跟着每一个源规则变化重新发布。
 
 ---
 
-## 15. 安全建议
+## 16. 安全建议
 
 ### 可以公开
 
