@@ -32,8 +32,29 @@ function toOutput(r) {
   };
 }
 
+function normalizeApiUrl(url) {
+  return String(url || '')
+    .trim()
+    .replace(/\\/+$/, '')
+    .replace(/^https?:\\/\\//i, '')
+    .replace(/^www\\./i, '')
+    .toLowerCase();
+}
+
+function dedupeRecords(records) {
+  const seen = new Set();
+  const unique = [];
+  for (const record of records) {
+    const key = normalizeApiUrl(record.api || record.id);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    unique.push(record);
+  }
+  return unique;
+}
+
 function saveJson(filename, records) {
-  const data = records.map(toOutput);
+  const data = dedupeRecords(records).map(toOutput);
   fs.writeFileSync(path.join(outputDir, filename), JSON.stringify(data, null, 2), 'utf8');
   return data.length;
 }
@@ -61,7 +82,7 @@ function bySpeed(a, b) {
     const mode = playSpeedTestEnabled ? '搜索+测速' : '仅搜索';
     console.log(`模式: ${mode}\n`);
 
-    const available = results.filter((r) => r.status === 'available');
+    const available = dedupeRecords(results.filter((r) => r.status === 'available'));
     const normal = available.filter((r) => !r.isAdult);
     const adult = available.filter((r) => r.isAdult);
 
