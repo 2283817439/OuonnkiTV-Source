@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs22.x"
+    }
+  },
+  "routes": [
+    { "src": "/api/sources", "dest": "/api/sources.js" },
+    { "src": "/api/categories", "dest": "/api/categories.js" },
+    { "src": "/api/health", "dest": "/api/health.js" }
+  ]
+}
