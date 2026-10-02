@@ -2,6 +2,33 @@
 
 私有视频源管理仓库，为 aidou 提供独立的 Source Registry 与 API 服务。
 
+
+## 📚 文档
+
+本仓库现在提供独立的完整部署指南：
+
+- [部署指南](./docs/deployment.md)：Vercel 部署、GitHub Actions、API 验证、aidou 接入、环境变量、缓存与故障排查
+
+### 推荐部署顺序
+
+```text
+GitHub Actions 生成源数据
+        ↓
+确认 tv_source/OuonnkiTV/*.json
+        ↓
+部署到 Vercel
+        ↓
+验证 /api/health
+        ↓
+验证 /api/categories
+        ↓
+验证 /api/sources?type=full
+        ↓
+把 *.vercel.app API 地址配置到 aidou
+```
+
+**不需要购买独立域名。** Vercel 分配的 `*.vercel.app` 地址即可作为 Source Registry API 地址。
+
 ## 架构
 
 ```
