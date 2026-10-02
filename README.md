@@ -1,46 +1,15 @@
 # OuonnkiTV-Source
 
-私有视频源管理仓库，为 aidou 提供独立的 Source Registry 与 API 服务。
-
-
-## 🚀 快速开始
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/2283817439/OuonnkiTV-Source&project-name=ouonnkitv-source)
-
-> 如果仓库是 Private，点击后需要使用有权限访问该仓库的 GitHub/Vercel 账号授权。无需购买独立域名，部署完成后可直接使用 Vercel 提供的 `*.vercel.app` 地址。
-
-## 📚 文档
-
-本仓库现在提供独立的完整部署指南：
-
-- [部署指南](./docs/deployment.md)：Vercel 部署、GitHub Actions、API 验证、aidou 接入、环境变量、缓存与故障排查
-
-### 推荐部署顺序
-
-```text
-GitHub Actions 生成源数据
-        ↓
-确认 tv_source/OuonnkiTV/*.json
-        ↓
-部署到 Vercel
-        ↓
-验证 /api/health
-        ↓
-验证 /api/categories
-        ↓
-验证 /api/sources?type=full
-        ↓
-把 *.vercel.app API 地址配置到 aidou
-```
-
-**不需要购买独立域名。** Vercel 分配的 `*.vercel.app` 地址即可作为 Source Registry API 地址。
+独立的视频源管理仓库，为 aidou 提供自动更新的 Source Registry 数据。
 
 ## 架构
 
 ```
 LunaTV-config
       ↓
-下载 → 清洗 → 可用性检测 → M3U8/分片验证 → 输出
+GitHub Actions
+      ↓
+下载 → 清洗 → 分类 → 可用性检测 → M3U8/分片验证
       ↓
 tv_source/OuonnkiTV/
   ├─ full.json
@@ -49,42 +18,59 @@ tv_source/OuonnkiTV/
   ├─ lite.json
   └─ raw.json
       ↓
-Vercel API
-  ├─ /api/sources?type=full
-  ├─ /api/sources?type=full-noadult
-  ├─ /api/sources?type=adult
-  ├─ /api/sources?type=lite
-  ├─ /api/categories
-  └─ /api/health
+GitHub Raw
       ↓
 aidou
+  └─ Source Registry → 搜索 → 详情 → 播放
 ```
 
-## API
+## aidou 接入
 
-- `GET /api/sources?type=full`：全部可用源
-- `GET /api/sources?type=full-noadult`：普通源
-- `GET /api/sources?type=adult`：成人源
-- `GET /api/sources?type=lite`：精简高速源
-- `GET /api/sources?type=raw`：检测后的全量记录
-- `GET /api/categories`：分类及数量
-- `GET /api/health`：最近一次检测状态
+仓库公开后，aidou 直接读取 GitHub Raw，无需 Vercel、独立 API 服务或自定义域名。
 
-API 只公开生成后的源注册数据，不需要把 GitHub 私有仓库 Token 放进 aidou 前端。
+完整源列表：
+
+```text
+https://raw.githubusercontent.com/2283817439/OuonnkiTV-Source/main/tv_source/OuonnkiTV/full.json
+```
+
+普通源：
+
+```text
+https://raw.githubusercontent.com/2283817439/OuonnkiTV-Source/main/tv_source/OuonnkiTV/full-noadult.json
+```
+
+成人源：
+
+```text
+https://raw.githubusercontent.com/2283817439/OuonnkiTV-Source/main/tv_source/OuonnkiTV/adult.json
+```
+
+精简源：
+
+```text
+https://raw.githubusercontent.com/2283817439/OuonnkiTV-Source/main/tv_source/OuonnkiTV/lite.json
+```
+
+检测后的全量记录：
+
+```text
+https://raw.githubusercontent.com/2283817439/OuonnkiTV-Source/main/tv_source/OuonnkiTV/raw.json
+```
 
 ## 自动更新
 
-GitHub Actions 每天自动执行：
+GitHub Actions 定时执行：
 
 1. 下载 LunaTV 源配置
-2. 清洗并分类普通/成人源
-3. 搜索检测
-4. M3U8、视频分片验证
-5. 可选播放测速
-6. 生成五种源列表
+2. 清洗源数据
+3. 分类普通/成人源
+4. 搜索检测
+5. M3U8 与视频分片验证
+6. 生成五种 JSON
 7. 自动提交 `tv_source/`
 
-也支持 Actions 手动触发。
+也支持在 GitHub Actions 中手动运行。
 
 ## 本地运行
 
@@ -93,14 +79,34 @@ npm install
 npm start
 ```
 
-需要代理或 Telegram 通知时，在 `src/.env` 中配置，密钥不要提交。
+需要代理或 Telegram 通知时，在本地环境中配置：
 
-## 部署 API
-
-该仓库已经提供 Vercel Functions 配置，可直接把此私有仓库导入 Vercel。部署完成后，将 API 根地址配置到 aidou 的公开环境变量中，例如：
-
-```
-VITE_OUONNKI_SOURCE_API_URL=https://<your-domain>/api/sources?type=full
+```text
+PROXY_URL=
+TG_BOT_TOKEN=
+TG_CHAT_ID=
 ```
 
-不要把 GitHub Token 放入前端环境变量。
+不要提交真实密钥。
+
+## 数据文件
+
+| 文件 | 用途 |
+|---|---|
+| `full.json` | 全部通过生成规则的源 |
+| `full-noadult.json` | 普通源 |
+| `adult.json` | 成人源 |
+| `lite.json` | 精简源 |
+| `raw.json` | 检测后的完整源记录 |
+
+## 设计原则
+
+Source Manager 与 aidou 解耦：
+
+- Source Manager 负责源采集、检测、分类和生成
+- GitHub Actions 负责定时更新
+- GitHub Raw 负责静态 JSON 分发
+- aidou 只负责消费 Source Registry
+- 修改源规则时，不需要修改 aidou 的 CMS 核心
+
+这样可以独立维护和迭代 `OuonnkiTV-Source`。
