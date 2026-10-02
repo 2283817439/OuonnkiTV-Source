@@ -3,6 +3,12 @@
 私有视频源管理仓库，为 aidou 提供独立的 Source Registry 与 API 服务。
 
 
+## 🚀 快速开始
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/2283817439/OuonnkiTV-Source&project-name=ouonnkitv-source)
+
+> 如果仓库是 Private，点击后需要使用有权限访问该仓库的 GitHub/Vercel 账号授权。无需购买独立域名，部署完成后可直接使用 Vercel 提供的 `*.vercel.app` 地址。
+
 ## 📚 文档
 
 本仓库现在提供独立的完整部署指南：
