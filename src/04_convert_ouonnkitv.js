@@ -35,9 +35,9 @@ function toOutput(r) {
 function normalizeApiUrl(url) {
   return String(url || '')
     .trim()
-    .replace(/\\/+$/, '')
-    .replace(/^https?:\\/\\//i, '')
-    .replace(/^www\\./i, '')
+    .replace(/\/+$/, '')
+    .replace(/^https?:\/\//i, '')
+    .replace(/^www\./i, '')
     .toLowerCase();
 }
 
