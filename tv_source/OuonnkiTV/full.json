@@ -64,6 +64,14 @@
     "isEnabled": true
   },
   {
+    "id": "www-huyaapi-com",
+    "name": "虎牙资源",
+    "url": "https://www.huyaapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.huyaapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "91md-me",
     "name": "麻豆视频",
     "url": "https://91md.me/api.php/provide/vod",
@@ -108,14 +116,6 @@
     "name": "小鸡资源",
     "url": "https://api.xiaojizy.live/provide/vod",
     "detailUrl": "https://api.xiaojizy.live/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "url": "https://hsckzy.xyz/api.php/provide/vod",
-    "detailUrl": "https://hsckzy.xyz/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
@@ -244,6 +244,22 @@
     "name": "新极品资源站",
     "url": "https://jipinvip1.com/api.php/provide/vod/",
     "detailUrl": "https://jipinvip1.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__huyazy-net",
+    "name": "虎牙资源站",
+    "url": "https://huyazy.net/api.php/provide/vod/",
+    "detailUrl": "https://huyazy.net/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__jyzyapi-com",
+    "name": "金鹰资源站",
+    "url": "https://jyzyapi.com/provide/vod/",
+    "detailUrl": "https://jyzyapi.com/provide/vod/",
     "timeout": 5000,
     "isEnabled": true
   },
