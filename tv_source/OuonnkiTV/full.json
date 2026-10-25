@@ -48,6 +48,14 @@
     "isEnabled": true
   },
   {
+    "id": "api-guangsuapi-com",
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detailUrl": "https://api.guangsuapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "www-hongniuzy-com",
     "name": "红牛资源",
     "url": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -256,10 +264,34 @@
     "isEnabled": true
   },
   {
+    "id": "__candidate__jipinvip1-com",
+    "name": "新极品资源站",
+    "url": "https://jipinvip1.com/api.php/provide/vod/",
+    "detailUrl": "https://jipinvip1.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "__candidate__huyazy-net",
     "name": "虎牙资源站",
     "url": "https://huyazy.net/api.php/provide/vod/",
     "detailUrl": "https://huyazy.net/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__subocj-com",
+    "name": "速播资源站",
+    "url": "https://subocj.com/api.php/provide/vod/",
+    "detailUrl": "https://subocj.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__www-suboziyuan-net",
+    "name": "速播资源站",
+    "url": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "detailUrl": "https://www.suboziyuan.net/api.php/provide/vod/",
     "timeout": 5000,
     "isEnabled": true
   },
