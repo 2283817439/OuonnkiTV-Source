@@ -1,9 +1,9 @@
 [
   {
-    "id": "www-huyaapi-com",
-    "name": "虎牙资源",
-    "url": "https://www.huyaapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.huyaapi.com/api.php/provide/vod",
+    "id": "__candidate__haohuazy-com",
+    "name": "豪华资源站",
+    "url": "https://haohuazy.com/api.php/provide/vod/",
+    "detailUrl": "https://haohuazy.com/api.php/provide/vod/",
     "timeout": 5000,
     "isEnabled": true
   },
@@ -16,34 +16,10 @@
     "isEnabled": true
   },
   {
-    "id": "xinlangapi-com",
-    "name": "新浪资源",
-    "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-    "detailUrl": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "__candidate__haohuazy-com",
-    "name": "豪华资源站",
-    "url": "https://haohuazy.com/api.php/provide/vod/",
-    "detailUrl": "https://haohuazy.com/api.php/provide/vod/",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "api-guangsuapi-com",
-    "name": "光速资源",
-    "url": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detailUrl": "https://api.guangsuapi.com/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "__candidate__jyzyapi-com",
-    "name": "金鹰资源站",
-    "url": "https://jyzyapi.com/provide/vod/",
-    "detailUrl": "https://jyzyapi.com/provide/vod/",
+    "id": "www-hongniuzy-com",
+    "name": "红牛资源",
+    "url": "https://www.hongniuzy2.com/api.php/provide/vod",
+    "detailUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
@@ -64,42 +40,34 @@
     "isEnabled": true
   },
   {
+    "id": "www-huyaapi-com",
+    "name": "虎牙资源",
+    "url": "https://www.huyaapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.huyaapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "jszyapi-com",
+    "name": "极速资源",
+    "url": "https://jszyapi.com/api.php/provide/vod",
+    "detailUrl": "https://jszyapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__jyzyapi-com",
+    "name": "金鹰资源站",
+    "url": "https://jyzyapi.com/provide/vod/",
+    "detailUrl": "https://jyzyapi.com/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "__candidate__bhziyuan-com",
     "name": "百花资源站",
     "url": "https://bhziyuan.com/api.php/provide/vod",
     "detailUrl": "https://bhziyuan.com/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "www-hongniuzy-com",
-    "name": "红牛资源",
-    "url": "https://www.hongniuzy2.com/api.php/provide/vod",
-    "detailUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "__candidate__subocj-com",
-    "name": "速播资源站",
-    "url": "https://subocj.com/api.php/provide/vod/",
-    "detailUrl": "https://subocj.com/api.php/provide/vod/",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "__candidate__www-suboziyuan-net",
-    "name": "速播资源站",
-    "url": "https://www.suboziyuan.net/api.php/provide/vod/",
-    "detailUrl": "https://www.suboziyuan.net/api.php/provide/vod/",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "url": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detailUrl": "https://iqiyizyapi.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
@@ -112,10 +80,42 @@
     "isEnabled": true
   },
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "url": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detailUrl": "https://iqiyizyapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "caiji-moduapi-cc",
     "name": "魔都动漫",
     "url": "https://caiji.moduapi.cc/api.php/provide/vod",
     "detailUrl": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "www-moduzy-net",
+    "name": "魔都资源",
+    "url": "https://www.mdzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.mdzyapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "url": "https://ikunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://ikunzyapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "www-maoyanzy-com",
+    "name": "猫眼资源",
+    "url": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detailUrl": "https://api.maoyanapi.top/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   }
