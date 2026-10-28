@@ -112,6 +112,22 @@
     "isEnabled": true
   },
   {
+    "id": "__candidate__subocj-com",
+    "name": "速播资源站",
+    "url": "https://subocj.com/api.php/provide/vod/",
+    "detailUrl": "https://subocj.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__www-suboziyuan-net",
+    "name": "速播资源站",
+    "url": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "detailUrl": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "__candidate__jyzyapi-com",
     "name": "金鹰资源站",
     "url": "https://jyzyapi.com/provide/vod/",

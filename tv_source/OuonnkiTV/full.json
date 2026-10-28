@@ -136,6 +136,14 @@
     "isEnabled": true
   },
   {
+    "id": "hsckzy-xyz",
+    "name": "黄色仓库",
+    "url": "https://hsckzy.xyz/api.php/provide/vod",
+    "detailUrl": "https://hsckzy.xyz/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "apidanaizi-com",
     "name": "大奶子",
     "url": "https://apidanaizi.com/api.php/provide/vod",
@@ -268,6 +276,22 @@
     "name": "虎牙资源站",
     "url": "https://huyazy.net/api.php/provide/vod/",
     "detailUrl": "https://huyazy.net/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__subocj-com",
+    "name": "速播资源站",
+    "url": "https://subocj.com/api.php/provide/vod/",
+    "detailUrl": "https://subocj.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__www-suboziyuan-net",
+    "name": "速播资源站",
+    "url": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "detailUrl": "https://www.suboziyuan.net/api.php/provide/vod/",
     "timeout": 5000,
     "isEnabled": true
   },
