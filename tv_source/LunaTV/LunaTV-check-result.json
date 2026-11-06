@@ -1,6 +1,6 @@
 {
-  "startDate": "2026/11/05 09:59",
-  "endDate": "2026/11/05 10:00",
+  "startDate": "2026/11/06 09:59",
+  "endDate": "2026/11/06 10:00",
   "playSpeedTestEnabled": true,
   "keywords": {
     "normal": [
@@ -18,7 +18,7 @@
     "search": "fallback",
     "play": "fallback"
   },
-  "duration": "63.8s",
+  "duration": "60.2s",
   "stats": {
     "total": 103,
     "available": 39
@@ -32,11 +32,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 2015,
+        "duration": 1790,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 242906.47887323945,
+        "avgSpeed": 337898.9028213166,
         "segmentType": "MPEG-TS (offset=75)",
         "usedProxy": false
       },
@@ -104,11 +104,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 896,
+        "duration": 707,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 242734.17721518988,
+        "avgSpeed": 173931.97278911565,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -122,7 +122,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 966,
+        "duration": 874,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -138,17 +138,17 @@
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "detail": "https://www.maoyanzy.com",
       "isAdult": false,
-      "status": "available",
+      "status": "search_failed",
       "search": {
-        "duration": 1197,
+        "duration": null,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 141244.01913875598,
-        "segmentType": "AES-128 encrypted",
-        "usedProxy": false
+        "avgSpeed": null,
+        "segmentType": null,
+        "usedProxy": null
       },
-      "errorDetail": null
+      "errorDetail": "所有关键词搜索均失败 (关键词: 哈哈哈哈, 斗破苍穹, 甄嬛传)"
     },
     {
       "id": "cj-lzcaiji-com",
@@ -158,7 +158,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 1469,
+        "duration": 1326,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -176,7 +176,7 @@
       "isAdult": false,
       "status": "segment_invalid",
       "search": {
-        "duration": 325,
+        "duration": 263,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -194,11 +194,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 201,
+        "duration": 253,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 3047151.9795657727,
+        "avgSpeed": 6165167.958656331,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -212,11 +212,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 463,
+        "duration": 315,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 87320.62391681109,
+        "avgSpeed": 251920,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -230,7 +230,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 1347,
+        "duration": 1051,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -248,7 +248,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 877,
+        "duration": 356,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -256,7 +256,7 @@
         "segmentType": null,
         "usedProxy": false
       },
-      "errorDetail": "m3u8_error: CERT_HAS_EXPIRED"
+      "errorDetail": "m3u8_error: ERR_BAD_REQUEST"
     },
     {
       "id": "zuida-xyz",
@@ -266,7 +266,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 1385,
+        "duration": 172,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -284,7 +284,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 402,
+        "duration": 154,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -302,11 +302,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 501,
+        "duration": 483,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 554990.3695408734,
+        "avgSpeed": 6752130.790190736,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -338,11 +338,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 853,
+        "duration": 382,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 3010974.483596598,
+        "avgSpeed": 7419257.48502994,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -356,7 +356,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 288,
+        "duration": 155,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -392,7 +392,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 437,
+        "duration": 196,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -410,11 +410,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 220,
+        "duration": 251,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 1673215.395003376,
+        "avgSpeed": 7039863.636363637,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -428,11 +428,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 239,
+        "duration": 255,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 1728055.7880055788,
+        "avgSpeed": 354886.1649562904,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -446,11 +446,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 346,
+        "duration": 309,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 97643.41085271318,
+        "avgSpeed": 314900,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -462,17 +462,17 @@
       "api": "https://cj.rycjapi.com/api.php/provide/vod",
       "detail": "https://www.ryzyw.com",
       "isAdult": false,
-      "status": "available",
+      "status": "m3u8_invalid",
       "search": {
-        "duration": 1415,
-        "usedKeyword": "斗破苍穹"
+        "duration": 1824,
+        "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 1566666.6666666667,
-        "segmentType": "MPEG-TS",
+        "avgSpeed": null,
+        "segmentType": null,
         "usedProxy": false
       },
-      "errorDetail": null
+      "errorDetail": "m3u8_error: ERR_BAD_REQUEST"
     },
     {
       "id": "www-haohuazy-com",
@@ -482,11 +482,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 344,
+        "duration": 351,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 2828803.6529680365,
+        "avgSpeed": 8151421.052631579,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -536,7 +536,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 1476,
+        "duration": 961,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -554,7 +554,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 2009,
+        "duration": 1345,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -572,7 +572,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 1414,
+        "duration": 175,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -608,7 +608,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 361,
+        "duration": 407,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -626,11 +626,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 159,
+        "duration": 185,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 2762577.480490524,
+        "avgSpeed": 6608085.333333333,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -734,11 +734,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 832,
+        "duration": 700,
         "usedKeyword": "家庭教师"
       },
       "play": {
-        "avgSpeed": 4207212.121212121,
+        "avgSpeed": 9359865.168539327,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -752,11 +752,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 303,
+        "duration": 321,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1354552.995391705,
+        "avgSpeed": 825089.1228070175,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -770,11 +770,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 173,
+        "duration": 224,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1209125.703564728,
+        "avgSpeed": 2133986.7549668876,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -788,11 +788,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 485,
+        "duration": 423,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1300610.6194690266,
+        "avgSpeed": 785930.4812834224,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -806,11 +806,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 284,
+        "duration": 211,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1146733.0960854092,
+        "avgSpeed": 1820519.7740112995,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -824,11 +824,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 1170,
+        "duration": 1123,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 542825.9385665529,
+        "avgSpeed": 1342177.2151898735,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -840,17 +840,17 @@
       "api": "https://hsckzy.xyz/api.php/provide/vod",
       "detail": "https://hsckzy.xyz",
       "isAdult": true,
-      "status": "detail_failed",
+      "status": "available",
       "search": {
-        "duration": 1530,
-        "usedKeyword": "家庭教师"
+        "duration": 209,
+        "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": null,
-        "segmentType": null,
-        "usedProxy": null
+        "avgSpeed": 1681526.3157894737,
+        "segmentType": "AES-128 encrypted",
+        "usedProxy": false
       },
-      "errorDetail": "detail_error: ERR_BAD_RESPONSE"
+      "errorDetail": null
     },
     {
       "id": "apidanaizi-com",
@@ -860,11 +860,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 972,
+        "duration": 1055,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1257592.2330097088,
+        "avgSpeed": 2082508.038585209,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -878,11 +878,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 166,
+        "duration": 191,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 697949.5798319328,
+        "avgSpeed": 3051036.7346938774,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -896,11 +896,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 863,
+        "duration": 627,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1294881.0572687224,
+        "avgSpeed": 838027.0848182465,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -932,11 +932,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 278,
+        "duration": 241,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1286380.7439824946,
+        "avgSpeed": 854470.9302325582,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -950,11 +950,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 357,
+        "duration": 248,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1333052.1541950114,
+        "avgSpeed": 820482.9030006978,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -968,11 +968,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 936,
+        "duration": 814,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1289201.754385965,
+        "avgSpeed": 815927.8278972935,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -986,11 +986,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 607,
+        "duration": 558,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 470622.5165562914,
+        "avgSpeed": 863125.5060728745,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1004,11 +1004,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 514,
+        "duration": 633,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 484056.07476635516,
+        "avgSpeed": 756116.7883211678,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1022,11 +1022,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 3649,
+        "duration": 3641,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1870195.5617198336,
+        "avgSpeed": 4025107.462686567,
         "segmentType": "MPEG-TS (offset=75)",
         "usedProxy": false
       },
@@ -1040,11 +1040,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 1297,
+        "duration": 1528,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 494822.51082251087,
+        "avgSpeed": 721058.3333333334,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1058,11 +1058,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 1061,
+        "duration": 1301,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 543442.1553090332,
+        "avgSpeed": 1030083.3333333333,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1076,11 +1076,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 275,
+        "duration": 179,
         "usedKeyword": "家庭教师"
       },
       "play": {
-        "avgSpeed": 426714.77663230244,
+        "avgSpeed": 647284.9740932642,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1094,7 +1094,7 @@
       "isAdult": true,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 864,
+        "duration": 840,
         "usedKeyword": "三上悠亚"
       },
       "play": {
@@ -1148,7 +1148,7 @@
       "isAdult": true,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 447,
+        "duration": 334,
         "usedKeyword": "家庭教师"
       },
       "play": {
@@ -1166,7 +1166,7 @@
       "isAdult": true,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 456,
+        "duration": 403,
         "usedKeyword": "三上悠亚"
       },
       "play": {
@@ -1184,7 +1184,7 @@
       "isAdult": true,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 584,
+        "duration": 791,
         "usedKeyword": "三上悠亚"
       },
       "play": {
@@ -1202,11 +1202,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 400,
+        "duration": 495,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1310760.3121516164,
+        "avgSpeed": 820482.9030006978,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1274,7 +1274,7 @@
       "isAdult": false,
       "status": "segment_invalid",
       "search": {
-        "duration": 2457,
+        "duration": 1738,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -1310,11 +1310,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 801,
+        "duration": 616,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 1858988.7471867967,
+        "avgSpeed": 6403183.4625323,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -1400,11 +1400,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 509,
+        "duration": 417,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 3312877.0053475937,
+        "avgSpeed": 6436446.7532467535,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -1434,17 +1434,17 @@
       "api": "https://subocj.com/api.php/provide/vod/",
       "detail": "https://subocj.com",
       "isAdult": false,
-      "status": "segment_invalid",
+      "status": "available",
       "search": {
-        "duration": 902,
+        "duration": 710,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": null,
-        "segmentType": "error",
+        "avgSpeed": 7080091.428571429,
+        "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
-      "errorDetail": "分片内容无效: error"
+      "errorDetail": null
     },
     {
       "id": "__candidate__www-suboziyuan-net",
@@ -1452,17 +1452,17 @@
       "api": "https://www.suboziyuan.net/api.php/provide/vod/",
       "detail": "https://www.suboziyuan.net",
       "isAdult": false,
-      "status": "segment_invalid",
+      "status": "available",
       "search": {
-        "duration": 655,
+        "duration": 567,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": null,
-        "segmentType": "error",
+        "avgSpeed": 6058757.946210269,
+        "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
-      "errorDetail": "分片内容无效: error"
+      "errorDetail": null
     },
     {
       "id": "__candidate__jyzyapi-com",
@@ -1472,11 +1472,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 336,
+        "duration": 321,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 2950038.095238095,
+        "avgSpeed": 6386680.412371133,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -1490,7 +1490,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 872,
+        "duration": 768,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
@@ -1526,11 +1526,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 257,
+        "duration": 205,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 1399704.761904762,
+        "avgSpeed": 860726.2079062957,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1562,11 +1562,11 @@
       "isAdult": false,
       "status": "available",
       "search": {
-        "duration": 1357,
+        "duration": 1724,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 518277.94561933534,
+        "avgSpeed": 867909.7744360901,
         "segmentType": "MPEG-TS",
         "usedProxy": false
       },
@@ -1578,17 +1578,17 @@
       "api": "https://bhziyuan.com/api.php/provide/vod",
       "detail": "https://bhziyuan.com",
       "isAdult": false,
-      "status": "available",
+      "status": "search_failed",
       "search": {
-        "duration": 818,
+        "duration": null,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {
-        "avgSpeed": 5222829.268292682,
-        "segmentType": "AES-128 encrypted",
-        "usedProxy": false
+        "avgSpeed": null,
+        "segmentType": null,
+        "usedProxy": null
       },
-      "errorDetail": null
+      "errorDetail": "所有关键词搜索均失败 (关键词: 哈哈哈哈, 斗破苍穹, 甄嬛传)"
     },
     {
       "id": "__candidate__caiji-semaozy-net",
@@ -1634,11 +1634,11 @@
       "isAdult": true,
       "status": "available",
       "search": {
-        "duration": 132,
+        "duration": 322,
         "usedKeyword": "三上悠亚"
       },
       "play": {
-        "avgSpeed": 974985.200845666,
+        "avgSpeed": 1352338.6243386243,
         "segmentType": "AES-128 encrypted",
         "usedProxy": false
       },
@@ -1868,7 +1868,7 @@
       "isAdult": false,
       "status": "m3u8_invalid",
       "search": {
-        "duration": 3049,
+        "duration": 398,
         "usedKeyword": "哈哈哈哈"
       },
       "play": {

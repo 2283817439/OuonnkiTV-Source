@@ -16,14 +16,6 @@
     "isEnabled": true
   },
   {
-    "id": "www-maoyanzy-com",
-    "name": "猫眼资源",
-    "url": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detailUrl": "https://api.maoyanapi.top/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
     "id": "jszyapi-com",
     "name": "极速资源",
     "url": "https://jszyapi.com/api.php/provide/vod",
@@ -80,14 +72,6 @@
     "isEnabled": true
   },
   {
-    "id": "www-ryzyw-com",
-    "name": "如意资源",
-    "url": "https://cj.rycjapi.com/api.php/provide/vod",
-    "detailUrl": "https://cj.rycjapi.com/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
     "id": "www-haohuazy-com",
     "name": "豪华资源",
     "url": "https://hhzyapi.com/api.php/provide/vod",
@@ -120,6 +104,22 @@
     "isEnabled": true
   },
   {
+    "id": "__candidate__subocj-com",
+    "name": "速播资源站",
+    "url": "https://subocj.com/api.php/provide/vod/",
+    "detailUrl": "https://subocj.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__www-suboziyuan-net",
+    "name": "速播资源站",
+    "url": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "detailUrl": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "__candidate__jyzyapi-com",
     "name": "金鹰资源站",
     "url": "https://jyzyapi.com/provide/vod/",
@@ -132,14 +132,6 @@
     "name": "番茄资源站",
     "url": "https://fqzy.me/api.php/provide/vod/",
     "detailUrl": "https://fqzy.me/api.php/provide/vod/",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "__candidate__bhziyuan-com",
-    "name": "百花资源站",
-    "url": "https://bhziyuan.com/api.php/provide/vod",
-    "detailUrl": "https://bhziyuan.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   }
