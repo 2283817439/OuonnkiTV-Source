@@ -24,6 +24,14 @@
     "isEnabled": true
   },
   {
+    "id": "cj-lzcaiji-com",
+    "name": "量子资源",
+    "url": "https://cj.lzcaiji.com/api.php/provide/vod",
+    "detailUrl": "https://cj.lzcaiji.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "jszyapi-com",
     "name": "极速资源",
     "url": "https://jszyapi.com/api.php/provide/vod",
@@ -40,6 +48,14 @@
     "isEnabled": true
   },
   {
+    "id": "bfzy-tv",
+    "name": "暴风资源",
+    "url": "https://bfzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://bfzyapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "xinlangapi-com",
     "name": "新浪资源",
     "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -52,6 +68,14 @@
     "name": "速播资源",
     "url": "https://subocaiji.com/api.php/provide/vod",
     "detailUrl": "https://subocaiji.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "api-guangsuapi-com",
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detailUrl": "https://api.guangsuapi.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
@@ -76,6 +100,22 @@
     "name": "豪华资源",
     "url": "https://hhzyapi.com/api.php/provide/vod",
     "detailUrl": "https://hhzyapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "lzizy-net",
+    "name": "量子影视",
+    "url": "https://cj.lziapi.com/api.php/provide/vod",
+    "detailUrl": "https://cj.lziapi.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "www-huyaapi-com",
+    "name": "虎牙资源",
+    "url": "https://www.huyaapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.huyaapi.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
@@ -108,14 +148,6 @@
     "name": "番茄资源站",
     "url": "https://fqzy.me/api.php/provide/vod/",
     "detailUrl": "https://fqzy.me/api.php/provide/vod/",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "__candidate__bhziyuan-com",
-    "name": "百花资源站",
-    "url": "https://bhziyuan.com/api.php/provide/vod",
-    "detailUrl": "https://bhziyuan.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   }
