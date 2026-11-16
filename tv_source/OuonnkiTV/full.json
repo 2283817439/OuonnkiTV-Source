@@ -224,6 +224,22 @@
     "isEnabled": true
   },
   {
+    "id": "thzy8-me",
+    "name": "桃花资源",
+    "url": "https://thzy1.me/api.php/provide/vod",
+    "detailUrl": "https://thzy1.me/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "www-jingpinx-com",
+    "name": "精品资源",
+    "url": "https://www.jingpinx.com/api.php/provide/vod",
+    "detailUrl": "https://www.jingpinx.com/api.php/provide/vod",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "ckzy-me",
     "name": "CK-资源",
     "url": "https://ckzy.me/api.php/provide/vod",
@@ -256,6 +272,22 @@
     "isEnabled": true
   },
   {
+    "id": "__candidate__subocj-com",
+    "name": "速播资源站",
+    "url": "https://subocj.com/api.php/provide/vod/",
+    "detailUrl": "https://subocj.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__www-suboziyuan-net",
+    "name": "速播资源站",
+    "url": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "detailUrl": "https://www.suboziyuan.net/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
     "id": "__candidate__jyzyapi-com",
     "name": "金鹰资源站",
     "url": "https://jyzyapi.com/provide/vod/",
@@ -268,6 +300,14 @@
     "name": "森林资源站",
     "url": "https://slapibf.com/api.php/provide/vod/",
     "detailUrl": "https://slapibf.com/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "__candidate__fqzy-me",
+    "name": "番茄资源站",
+    "url": "https://fqzy.me/api.php/provide/vod/",
+    "detailUrl": "https://fqzy.me/api.php/provide/vod/",
     "timeout": 5000,
     "isEnabled": true
   },
