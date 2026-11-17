@@ -16,14 +16,6 @@
     "isEnabled": true
   },
   {
-    "id": "www-maoyanzy-com",
-    "name": "猫眼资源",
-    "url": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detailUrl": "https://api.maoyanapi.top/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
     "id": "jszyapi-com",
     "name": "极速资源",
     "url": "https://jszyapi.com/api.php/provide/vod",
@@ -140,14 +132,6 @@
     "name": "小鸡资源",
     "url": "https://api.xiaojizy.live/provide/vod",
     "detailUrl": "https://api.xiaojizy.live/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "url": "https://hsckzy.xyz/api.php/provide/vod",
-    "detailUrl": "https://hsckzy.xyz/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
