@@ -8,14 +8,6 @@
     "isEnabled": true
   },
   {
-    "id": "www-hongniuzy-com",
-    "name": "红牛资源",
-    "url": "https://www.hongniuzy2.com/api.php/provide/vod",
-    "detailUrl": "https://www.hongniuzy2.com/api.php/provide/vod",
-    "timeout": 5000,
-    "isEnabled": true
-  },
-  {
     "id": "__candidate__bhziyuan-com",
     "name": "百花资源站",
     "url": "https://bhziyuan.com/api.php/provide/vod",
@@ -28,6 +20,14 @@
     "name": "番茄资源站",
     "url": "https://fqzy.me/api.php/provide/vod/",
     "detailUrl": "https://fqzy.me/api.php/provide/vod/",
+    "timeout": 5000,
+    "isEnabled": true
+  },
+  {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "url": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detailUrl": "https://iqiyizyapi.com/api.php/provide/vod",
     "timeout": 5000,
     "isEnabled": true
   },
